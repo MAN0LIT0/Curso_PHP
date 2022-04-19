@@ -8,7 +8,8 @@
 </head>
 <body>
 <?php
-    echo "meu nome é Marco";
+    echo "meu nome é Marco <br>";
+    print "tenho 18 anos :)";
 ?>
 </body>
 </html>

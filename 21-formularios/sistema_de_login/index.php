@@ -6,7 +6,7 @@ session_start();
 // checagem do clic no botão
 if(isset($_POST['btn-enviar'])){
     $erros = array();
-    // tratamento das informações
+    // tratamento das informações : evita que o usuario insira comandos SQLs nos inputs
     $login = mysqli_escape_string($connect, $_POST['login']);
     $senha = mysqli_escape_string($connect, $_POST['senha']);
 
